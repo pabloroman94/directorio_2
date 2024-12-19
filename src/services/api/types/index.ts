@@ -1,0 +1,1 @@
+export type SortOption = 'relevancia' | 'calificacion' | 'resenas' | 'experiencia' | 'nombre'; 

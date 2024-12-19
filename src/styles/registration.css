@@ -1,0 +1,75 @@
+/* Registration Type Selection */
+.registration-type-card {
+  border: 2px solid transparent;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  height: 100%;
+}
+
+.registration-type-card:hover {
+  border-color: #0d6efd;
+  transform: translateY(-4px);
+}
+
+.registration-type-card.selected {
+  border-color: #0d6efd;
+  background-color: #f8f9fa;
+}
+
+/* Form Sections */
+.form-section {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.form-section-title {
+  color: #0d6efd;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+/* Image Upload */
+.image-upload {
+  width: 150px;
+  height: 150px;
+  border: 2px dashed #dee2e6;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.image-upload:hover {
+  border-color: #0d6efd;
+  background-color: #f8f9fa;
+}
+
+.image-preview {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+/* Input Groups */
+.input-group-text {
+  background-color: transparent;
+  color: #6c757d;
+}
+
+/* Validation States */
+.is-invalid .input-group-text {
+  border-color: #dc3545;
+  color: #dc3545;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .form-section {
+    padding: 1rem;
+  }
+}

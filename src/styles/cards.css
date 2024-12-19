@@ -1,0 +1,47 @@
+/* Card Styles */
+.card-hover {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12) !important;
+}
+
+/* Badge Styles */
+.badge {
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+
+.badge.bg-primary {
+  background-color: #0d6efd !important;
+}
+
+.badge.bg-secondary {
+  background-color: #6c757d !important;
+}
+
+/* Button Styles */
+.btn-outline-primary {
+  border-width: 1.5px;
+  padding: 0.5rem 1rem;
+}
+
+.btn-outline-primary:hover {
+  background-color: rgba(13, 110, 253, 0.1);
+  color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+/* Image Styles */
+.rounded-circle {
+  border: 2px solid #fff;
+}
+
+/* Stats Box */
+.stats-box {
+  background-color: rgba(13, 110, 253, 0.05);
+  border-radius: 0.5rem;
+  padding: 1rem;
+}

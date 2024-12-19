@@ -1,0 +1,32 @@
+.location-map {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.location-info {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.location-icon {
+  color: #0d6efd;
+  flex-shrink: 0;
+}
+
+.location-title {
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.location-address {
+  color: #6c757d;
+  font-size: 0.9rem;
+}
+
+.view-map-btn {
+  width: 100%;
+}
